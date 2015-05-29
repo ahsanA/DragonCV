@@ -1,0 +1,67 @@
+
+.main{ 
+  margin: 0 auto; 
+  width: 900px; 
+  text-align: center; 
+  /*border:1px solid black;*/
+}
+
+.tbl{
+  margin: 0 auto; 
+  width:700px;
+  height:auto;
+  /*border:1px solid blue;*/
+}
+
+.row{
+	margin: 5 auto;
+	width: 98%;
+	height:50px;
+	position: relative;
+	text-align: center;
+	/*border:1px solid green;*/
+}
+
+.row1{
+	height:110px;
+}
+
+.row2{
+	height:150px;
+}
+
+.leftCol{
+	margin: 0 0 0 8px;
+	width:21%;
+	float:left;
+	text-align: right;
+}
+
+.midCol{
+	float: left;
+	min-width: 10px;
+	width: auto;
+	position: relative;
+	text-align: right;
+}
+
+.rightCol{
+	width:35%;
+	float: left;
+	text-align: left;
+	/*border:1px solid blue;*/
+}
+
+.row2{
+	text-align: right;
+}
+
+.errorCol{
+	padding: 3px 0 0 0;
+	width:40%;
+	height:auto;
+	float: left;
+	text-align: left;
+	/*border:1px solid blue;*/
+	color: red;
+}
